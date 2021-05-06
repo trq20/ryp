@@ -15,7 +15,7 @@
 - Usen el `HEADER` para informar el otro endpoint de cuantos bytes van a enviar en el siguiente paquete.
 - Pueden tomar asignar el IP del servidor de forma dinámica usando:
 ```python
-socket.gethostbyname(socket.getsocketname())
+socket.gethostbyname(socket.gethostname())
 ```
 
 ## Como entregar
